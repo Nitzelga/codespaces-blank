@@ -1,0 +1,105 @@
+*{
+        margin: 0px;
+            padding: 0px;
+                font-family: century;
+}
+
+ body{  
+        background-image: url('TrebEdit/night.jpg');
+            width: 100wh;
+                height: 100vh;
+                    background-size: cover;
+                        background-position: center;
+                            min-height: 100px;
+ }
+
+ ul{
+        float: right;
+            list-style-type: none;
+                margin-top: 30px;
+                    min-height: 400px;
+                        margin-right: 40px;
+                            font-size: 30px;
+ }
+
+ li{
+        display: inline-block;
+ }
+
+ ul li a{
+        text-decoration: none;
+            color: white;
+                padding: 5x 20px;
+                    border: 1px solid transparent;
+                        transition: 0.5 ease;
+ }
+
+ ul li a:hover{
+        background-color: white;
+            color: black;
+ }
+
+ ul li.active a{
+        background-color: white;
+            color: black;
+ }
+
+ .main{
+        width: auto;
+            margin: auto;
+ }
+
+ .title{
+        position: absolute;
+            top: 47%;
+                left: 55%;
+                    transform: translate(-50%,-50%);
+ }
+
+ .title h1{
+        color: white;
+            font-size: 55px;
+                font-family: 'Lexend' sans-serif;
+ }
+
+ .button{
+        position: absolute;
+            top: 35%;
+                left: 47%;
+                    transform: translate(-50%,-50%);
+                        font-size: 50px;
+ }
+
+ .btn{
+        cursor: pointer;
+            border: 5px solid white;
+                padding: 5px 20px;
+                    color: whitesmoke;
+                        transition: 0.5 ease;
+                            font-size: 50px;
+                                text-decoration: none;    
+ }
+
+ .btn:hover{
+        background-color: lightblue;
+            color: black;
+ }
+
+ .button li.active a{
+        background-color: lightblue;
+ }
+ 
+ }
+ }
+ }
+ }
+ }
+ }
+ }
+ }
+ }
+ }
+ }
+ }
+ }
+}
